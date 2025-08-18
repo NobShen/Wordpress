@@ -1,4 +1,6 @@
 // this file is the updated functions.php file under the theme directory.  It contains the functions to lookup legislators in the USA to display to the client's browser.
+// This code creates the shortcode, the server-side function to fetch data from the API, and properly loads the necessary scripts. 
+// Add this PHP to your child theme's functions.php file.
 
 <?php
 // 1. Create the Shortcode for the Legislator Lookup Tool
