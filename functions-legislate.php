@@ -8,7 +8,7 @@ add_shortcode('congress_lookup', 'congress_lookup_shortcode_handler');
 
 function congress_lookup_shortcode_handler() {
     // Enqueue the necessary scripts and styles
-    wp_enqueue_script('congress-lookup-js', get_stylesheet_directory_uri() . '/js/congress-lookup.js', array('jquery'), null, true);
+    wp_enqueue_script('congress-lookup-js', get_stylesheet_directory_uri() . '/js/congress-lookup.js', array('jquery'), 1.1, true);
     wp_enqueue_style('congress-lookup-css', 'https://cdn.tailwindcss.com');
 
     // Pass data to JavaScript, including the AJAX URL for server-side communication
